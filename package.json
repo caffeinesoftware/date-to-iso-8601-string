@@ -1,12 +1,14 @@
 {
   "name": "date-to-iso-8601-string",
   "version": "1.0.0",
-  "description": "Converts a JavaScript `Date` to a complete ISO 8601 date representation, in either extended (`2023-01-01`, default) or basic (`20230101`) format.",
+  "description": "Presents a JavaScript `Date` as a string in [ISO 8601 format](https://www.loc.gov/standards/datetime/iso-tc154-wg5_n0038_iso_wd_8601-1_2016-02-16.pdf), with support for the Extended (`YYYY-MM-DD`) and Basic (`YYYYMMDD`) variants",
   "main": "./dist/commonjs/index.js",
   "module": "./dist/esm/index.js",
+  "homepage": "https://github.com/caffeinesoftware/date-to-iso-8601-string",
   "files": [
-    "dist/"
+    "dist"
   ],
+  "keywords": ["date", "iso", "iso8601", "iso-8601"],
   "scripts": {
     "test": "jest",
     "build": "npx tsc -p tsconfig.json && tsc -p tsconfig-commonjs.json",
