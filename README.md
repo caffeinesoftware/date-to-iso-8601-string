@@ -6,12 +6,14 @@ This package includes TypeScript types.
 
 ## Installation
 
+Currently, this package is not available on the `npm` registry, so you'll need to install direct from GitHub:
+
 ```bash
-# With npm
-npm install --save date-to-iso-8601-string
+# With npm:
+npm install --save caffeinesoftware/date-to-iso-8601-string
 
 # With Yarn
-yarn add date-to-iso-8601-string
+yarn add caffeinesoftware/date-to-iso-8601-string
 ```
 
 ## Usage
