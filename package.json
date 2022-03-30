@@ -1,0 +1,32 @@
+{
+  "name": "date-to-iso-8601-string",
+  "version": "1.0.0",
+  "description": "Converts a JavaScript `Date` to a complete ISO 8601 date representation, in either extended (`2023-01-01`, default) or basic (`20230101`) format.",
+  "main": "./dist/commonjs/index.js",
+  "module": "./dist/esm/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "npx tsc -p tsconfig.json && tsc -p tsconfig-commonjs.json",
+    "prepublish": "npm run build",
+    "lint": "eslint . --ext .ts",
+    "lint-and-fix": "eslint . --ext .ts --fix"
+  },
+  "author": "Caffeine Software Ltd <hello@caffeinesoftware.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.5.1",
+    "prettier": "^2.6.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
