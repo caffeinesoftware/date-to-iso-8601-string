@@ -4,7 +4,7 @@ export enum ISO8601DateFormat {
    */
   Basic,
   /**
-   * The ISO 8601 Extended date format, `YYYY-MM-DD` (e.g. `2023-01-01` )
+   * The ISO 8601 Extended date format, `YYYY-MM-DD` (e.g. `2023-01-01`)
    */
   Extended,
 }
