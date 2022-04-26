@@ -11,7 +11,7 @@ export enum ISO8601DateFormat {
 
 /**
  * Presents the supplied JavaScript `Date` as a string in ISO 8601 format,
- * defaulting to the Extnded date format (`YYYY-MM-DD`).
+ * defaulting to the Extended date format (`YYYY-MM-DD`).
  *
  * @param date the date to present
  * @param format the ISO 8601 format to use for presentation, defaulting to
