@@ -2,6 +2,8 @@
 
 Presents a JavaScript `Date` as a string in [ISO 8601 format](https://www.loc.gov/standards/datetime/iso-tc154-wg5_n0038_iso_wd_8601-1_2016-02-16.pdf), with support for the Extended (`YYYY-MM-DD`) and Basic (`YYYYMMDD`) variants.
 
+Note that this module uses the "local date" in the time zone of the machine, rather than the UTC dfate.
+
 This package includes TypeScript types.
 
 ## Installation

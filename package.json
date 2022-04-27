@@ -1,6 +1,6 @@
 {
   "name": "date-to-iso-8601-string",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Presents a JavaScript `Date` as a string in [ISO 8601 format](https://www.loc.gov/standards/datetime/iso-tc154-wg5_n0038_iso_wd_8601-1_2016-02-16.pdf), with support for the Extended (`YYYY-MM-DD`) and Basic (`YYYYMMDD`) variants",
   "main": "./dist/commonjs/index.js",
   "module": "./dist/esm/index.js",

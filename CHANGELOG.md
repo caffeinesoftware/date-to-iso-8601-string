@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2022-04-27
+
+### Changed
+
+- Updated `dateToISO8601String` function to use the local date, not the UTC date
+
 ## [1.0.0] - 2022-03-30
 
 ### Added
