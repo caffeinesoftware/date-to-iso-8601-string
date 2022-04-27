@@ -13,7 +13,7 @@ export enum ISO8601DateFormat {
  * Presents the supplied JavaScript `Date` as a string in ISO 8601 Basic format,
  * `YYYYMMDD` (e.g. `20230101`) (see
  * <https://www.loc.gov/standards/datetime/iso-tc154-wg5_n0038_iso_wd_8601-1_2016-02-16.pdf>).
- * 
+ *
  * @param date the date to present
  */
 const dateToISO8601BasicFormatString = (date: Date): string => {
@@ -22,22 +22,22 @@ const dateToISO8601BasicFormatString = (date: Date): string => {
   const dd = date.getDate().toString().padStart(2, '0');
 
   return [yyyy, mm, dd].join('');
-}
+};
 
 /**
  * Presents the supplied JavaScript `Date` as a string in ISO 8601 Extended format,
  * `YYYY-MM-DD` (e.g. `2023-01-01`) (see
  * <https://www.loc.gov/standards/datetime/iso-tc154-wg5_n0038_iso_wd_8601-1_2016-02-16.pdf>).
- * 
+ *
  * @param date the date to present
  */
-const dateToISO8601ExtendedFormatString = (date: Date): string => { 
+const dateToISO8601ExtendedFormatString = (date: Date): string => {
   const yyyy = date.getFullYear().toString();
   const mm = (date.getMonth() + 1).toString().padStart(2, '0');
   const dd = date.getDate().toString().padStart(2, '0');
 
   return [yyyy, mm, dd].join('-');
-}
+};
 
 /**
  * Presents the supplied JavaScript `Date` as a date string in ISO 8601 format,
