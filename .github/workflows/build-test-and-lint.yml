@@ -17,3 +17,7 @@ jobs:
       - run: npm ci
       - run: npm run test
       - run: npm run lint
+      - run: ./fetch-iata-data.sh
+        env:
+          IATA_CODE_DECODER_API_BASE_URL: ${{ secrets.IATA_CODE_DECODER_API_BASE_URL }}
+          IATA_CODE_DECODER_API_PATH: ${{ secrets.IATA_CODE_DECODER_API_PATH }}
