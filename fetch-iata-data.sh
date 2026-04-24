@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl "${IATA_CODE_DECODER_API_BASE_URL}${IATA_CODE_DECODER_API_PATH}"
